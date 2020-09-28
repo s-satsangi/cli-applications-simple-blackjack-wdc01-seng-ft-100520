@@ -71,7 +71,7 @@ def runner
   welcome
 card_total = initial_round
 #binding.pry
-until (card_total > 21 ) do
+while (card_total > 21 ) do
   
 #  binding.pry
   display_card_total card_total
