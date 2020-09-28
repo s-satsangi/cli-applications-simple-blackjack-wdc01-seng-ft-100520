@@ -73,11 +73,11 @@ card_total = initial_round
 #binding.pry
 until (card_total > 21 ) do
   
- binding.pry
+# binding.pry
   display_card_total card_total
   user_choice = hit? card_total
-  binding.pry
-  card_total += user_choice
+ # binding.pry
+  card_total = user_choice
 end
 
 end_game card_total 
