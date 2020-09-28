@@ -73,7 +73,7 @@ card_total = initial_round
 #binding.pry
 while (card_total > 21 ) do
   
-#  binding.pry
+ binding.pry
   display_card_total card_total
   user_choice = hit? card_total
   binding.pry
