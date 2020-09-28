@@ -75,8 +75,9 @@ while (card_total > 21 ) do
   
 #  binding.pry
   display_card_total card_total
-  card_total += hit? card_total
-  #binding.pry
+  user_choice = hit? card_total
+  binding.pry
+  card_total += user_choice
 end
 
 end_game card_total 
